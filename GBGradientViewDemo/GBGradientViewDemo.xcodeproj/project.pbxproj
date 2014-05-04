@@ -1,0 +1,516 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		43F97EAC1916584800B5AC8D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43F97EAB1916584800B5AC8D /* Foundation.framework */; };
+		43F97EAE1916584800B5AC8D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43F97EAD1916584800B5AC8D /* CoreGraphics.framework */; };
+		43F97EB01916584800B5AC8D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43F97EAF1916584800B5AC8D /* UIKit.framework */; };
+		43F97EB61916584800B5AC8D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 43F97EB41916584800B5AC8D /* InfoPlist.strings */; };
+		43F97EB81916584800B5AC8D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 43F97EB71916584800B5AC8D /* main.m */; };
+		43F97EBC1916584800B5AC8D /* GBAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 43F97EBB1916584800B5AC8D /* GBAppDelegate.m */; };
+		43F97EBF1916584800B5AC8D /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 43F97EBD1916584800B5AC8D /* Main_iPhone.storyboard */; };
+		43F97EC21916584800B5AC8D /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 43F97EC01916584800B5AC8D /* Main_iPad.storyboard */; };
+		43F97EC51916584800B5AC8D /* GBViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 43F97EC41916584800B5AC8D /* GBViewController.m */; };
+		43F97EC71916584800B5AC8D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 43F97EC61916584800B5AC8D /* Images.xcassets */; };
+		43F97ECE1916584800B5AC8D /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43F97ECD1916584800B5AC8D /* XCTest.framework */; };
+		43F97ECF1916584800B5AC8D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43F97EAB1916584800B5AC8D /* Foundation.framework */; };
+		43F97ED01916584800B5AC8D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43F97EAF1916584800B5AC8D /* UIKit.framework */; };
+		43F97ED81916584800B5AC8D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 43F97ED61916584800B5AC8D /* InfoPlist.strings */; };
+		43F97EDA1916584800B5AC8D /* GBGradientViewDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 43F97ED91916584800B5AC8D /* GBGradientViewDemoTests.m */; };
+		43F97EE7191658CF00B5AC8D /* GBRoundBorderedButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 43F97EE4191658CF00B5AC8D /* GBRoundBorderedButton.m */; };
+		43F97EE8191658CF00B5AC8D /* UIColor+Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = 43F97EE6191658CF00B5AC8D /* UIColor+Utils.m */; };
+		43F97EEA1916667B00B5AC8D /* libGBGradientView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 43F97EE91916667B00B5AC8D /* libGBGradientView.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		43F97ED11916584800B5AC8D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 43F97EA01916584800B5AC8D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 43F97EA71916584800B5AC8D;
+			remoteInfo = GBGradientViewDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		43F97EA81916584800B5AC8D /* Gradient View.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Gradient View.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		43F97EAB1916584800B5AC8D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		43F97EAD1916584800B5AC8D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		43F97EAF1916584800B5AC8D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		43F97EB31916584800B5AC8D /* GBGradientViewDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GBGradientViewDemo-Info.plist"; sourceTree = "<group>"; };
+		43F97EB51916584800B5AC8D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		43F97EB71916584800B5AC8D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		43F97EB91916584800B5AC8D /* GBGradientViewDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GBGradientViewDemo-Prefix.pch"; sourceTree = "<group>"; };
+		43F97EBA1916584800B5AC8D /* GBAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GBAppDelegate.h; sourceTree = "<group>"; };
+		43F97EBB1916584800B5AC8D /* GBAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GBAppDelegate.m; sourceTree = "<group>"; };
+		43F97EBE1916584800B5AC8D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		43F97EC11916584800B5AC8D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		43F97EC31916584800B5AC8D /* GBViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GBViewController.h; sourceTree = "<group>"; };
+		43F97EC41916584800B5AC8D /* GBViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GBViewController.m; sourceTree = "<group>"; };
+		43F97EC61916584800B5AC8D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		43F97ECC1916584800B5AC8D /* GBGradientViewDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GBGradientViewDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		43F97ECD1916584800B5AC8D /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		43F97ED51916584800B5AC8D /* GBGradientViewDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GBGradientViewDemoTests-Info.plist"; sourceTree = "<group>"; };
+		43F97ED71916584800B5AC8D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		43F97ED91916584800B5AC8D /* GBGradientViewDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GBGradientViewDemoTests.m; sourceTree = "<group>"; };
+		43F97EE3191658CF00B5AC8D /* GBRoundBorderedButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GBRoundBorderedButton.h; sourceTree = "<group>"; };
+		43F97EE4191658CF00B5AC8D /* GBRoundBorderedButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GBRoundBorderedButton.m; sourceTree = "<group>"; };
+		43F97EE5191658CF00B5AC8D /* UIColor+Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Utils.h"; sourceTree = "<group>"; };
+		43F97EE6191658CF00B5AC8D /* UIColor+Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Utils.m"; sourceTree = "<group>"; };
+		43F97EE91916667B00B5AC8D /* libGBGradientView.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libGBGradientView.a; path = "../../../Library/Developer/Xcode/DerivedData/GBGradientView-cupshrzbmanngfanzvuogwgtfzmv/Build/Products/Debug-iphoneos/libGBGradientView.a"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		43F97EA51916584800B5AC8D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43F97EEA1916667B00B5AC8D /* libGBGradientView.a in Frameworks */,
+				43F97EAE1916584800B5AC8D /* CoreGraphics.framework in Frameworks */,
+				43F97EB01916584800B5AC8D /* UIKit.framework in Frameworks */,
+				43F97EAC1916584800B5AC8D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43F97EC91916584800B5AC8D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43F97ECE1916584800B5AC8D /* XCTest.framework in Frameworks */,
+				43F97ED01916584800B5AC8D /* UIKit.framework in Frameworks */,
+				43F97ECF1916584800B5AC8D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		43F97E9F1916584800B5AC8D = {
+			isa = PBXGroup;
+			children = (
+				43F97EB11916584800B5AC8D /* GBGradientViewDemo */,
+				43F97ED31916584800B5AC8D /* GBGradientViewDemoTests */,
+				43F97EAA1916584800B5AC8D /* Frameworks */,
+				43F97EA91916584800B5AC8D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		43F97EA91916584800B5AC8D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				43F97EA81916584800B5AC8D /* Gradient View.app */,
+				43F97ECC1916584800B5AC8D /* GBGradientViewDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		43F97EAA1916584800B5AC8D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				43F97EE91916667B00B5AC8D /* libGBGradientView.a */,
+				43F97EAB1916584800B5AC8D /* Foundation.framework */,
+				43F97EAD1916584800B5AC8D /* CoreGraphics.framework */,
+				43F97EAF1916584800B5AC8D /* UIKit.framework */,
+				43F97ECD1916584800B5AC8D /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		43F97EB11916584800B5AC8D /* GBGradientViewDemo */ = {
+			isa = PBXGroup;
+			children = (
+				43F97EBA1916584800B5AC8D /* GBAppDelegate.h */,
+				43F97EBB1916584800B5AC8D /* GBAppDelegate.m */,
+				43F97EE3191658CF00B5AC8D /* GBRoundBorderedButton.h */,
+				43F97EE4191658CF00B5AC8D /* GBRoundBorderedButton.m */,
+				43F97EC31916584800B5AC8D /* GBViewController.h */,
+				43F97EC41916584800B5AC8D /* GBViewController.m */,
+				43F97EC61916584800B5AC8D /* Images.xcassets */,
+				43F97EC01916584800B5AC8D /* Main_iPad.storyboard */,
+				43F97EBD1916584800B5AC8D /* Main_iPhone.storyboard */,
+				43F97EB21916584800B5AC8D /* Supporting Files */,
+				43F97EE5191658CF00B5AC8D /* UIColor+Utils.h */,
+				43F97EE6191658CF00B5AC8D /* UIColor+Utils.m */,
+			);
+			path = GBGradientViewDemo;
+			sourceTree = "<group>";
+		};
+		43F97EB21916584800B5AC8D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				43F97EB31916584800B5AC8D /* GBGradientViewDemo-Info.plist */,
+				43F97EB41916584800B5AC8D /* InfoPlist.strings */,
+				43F97EB71916584800B5AC8D /* main.m */,
+				43F97EB91916584800B5AC8D /* GBGradientViewDemo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		43F97ED31916584800B5AC8D /* GBGradientViewDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				43F97ED91916584800B5AC8D /* GBGradientViewDemoTests.m */,
+				43F97ED41916584800B5AC8D /* Supporting Files */,
+			);
+			path = GBGradientViewDemoTests;
+			sourceTree = "<group>";
+		};
+		43F97ED41916584800B5AC8D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				43F97ED51916584800B5AC8D /* GBGradientViewDemoTests-Info.plist */,
+				43F97ED61916584800B5AC8D /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		43F97EA71916584800B5AC8D /* GBGradientViewDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 43F97EDD1916584800B5AC8D /* Build configuration list for PBXNativeTarget "GBGradientViewDemo" */;
+			buildPhases = (
+				43F97EA41916584800B5AC8D /* Sources */,
+				43F97EA51916584800B5AC8D /* Frameworks */,
+				43F97EA61916584800B5AC8D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GBGradientViewDemo;
+			productName = GBGradientViewDemo;
+			productReference = 43F97EA81916584800B5AC8D /* Gradient View.app */;
+			productType = "com.apple.product-type.application";
+		};
+		43F97ECB1916584800B5AC8D /* GBGradientViewDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 43F97EE01916584800B5AC8D /* Build configuration list for PBXNativeTarget "GBGradientViewDemoTests" */;
+			buildPhases = (
+				43F97EC81916584800B5AC8D /* Sources */,
+				43F97EC91916584800B5AC8D /* Frameworks */,
+				43F97ECA1916584800B5AC8D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				43F97ED21916584800B5AC8D /* PBXTargetDependency */,
+			);
+			name = GBGradientViewDemoTests;
+			productName = GBGradientViewDemoTests;
+			productReference = 43F97ECC1916584800B5AC8D /* GBGradientViewDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		43F97EA01916584800B5AC8D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = GB;
+				LastUpgradeCheck = 0510;
+				TargetAttributes = {
+					43F97EA71916584800B5AC8D = {
+						DevelopmentTeam = CQ235PGEX8;
+					};
+					43F97ECB1916584800B5AC8D = {
+						TestTargetID = 43F97EA71916584800B5AC8D;
+					};
+				};
+			};
+			buildConfigurationList = 43F97EA31916584800B5AC8D /* Build configuration list for PBXProject "GBGradientViewDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 43F97E9F1916584800B5AC8D;
+			productRefGroup = 43F97EA91916584800B5AC8D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				43F97EA71916584800B5AC8D /* GBGradientViewDemo */,
+				43F97ECB1916584800B5AC8D /* GBGradientViewDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		43F97EA61916584800B5AC8D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43F97EC21916584800B5AC8D /* Main_iPad.storyboard in Resources */,
+				43F97EC71916584800B5AC8D /* Images.xcassets in Resources */,
+				43F97EBF1916584800B5AC8D /* Main_iPhone.storyboard in Resources */,
+				43F97EB61916584800B5AC8D /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43F97ECA1916584800B5AC8D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43F97ED81916584800B5AC8D /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		43F97EA41916584800B5AC8D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43F97EE8191658CF00B5AC8D /* UIColor+Utils.m in Sources */,
+				43F97EB81916584800B5AC8D /* main.m in Sources */,
+				43F97EC51916584800B5AC8D /* GBViewController.m in Sources */,
+				43F97EE7191658CF00B5AC8D /* GBRoundBorderedButton.m in Sources */,
+				43F97EBC1916584800B5AC8D /* GBAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43F97EC81916584800B5AC8D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43F97EDA1916584800B5AC8D /* GBGradientViewDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		43F97ED21916584800B5AC8D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 43F97EA71916584800B5AC8D /* GBGradientViewDemo */;
+			targetProxy = 43F97ED11916584800B5AC8D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		43F97EB41916584800B5AC8D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				43F97EB51916584800B5AC8D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		43F97EBD1916584800B5AC8D /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				43F97EBE1916584800B5AC8D /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		43F97EC01916584800B5AC8D /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				43F97EC11916584800B5AC8D /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		43F97ED61916584800B5AC8D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				43F97ED71916584800B5AC8D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		43F97EDB1916584800B5AC8D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		43F97EDC1916584800B5AC8D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		43F97EDE1916584800B5AC8D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GBGradientViewDemo/GBGradientViewDemo-Prefix.pch";
+				INFOPLIST_FILE = "GBGradientViewDemo/GBGradientViewDemo-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/GBGradientView-cupshrzbmanngfanzvuogwgtfzmv/Build/Products/Debug-iphoneos",
+				);
+				PRODUCT_NAME = "Gradient View";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		43F97EDF1916584800B5AC8D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GBGradientViewDemo/GBGradientViewDemo-Prefix.pch";
+				INFOPLIST_FILE = "GBGradientViewDemo/GBGradientViewDemo-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/GBGradientView-cupshrzbmanngfanzvuogwgtfzmv/Build/Products/Debug-iphoneos",
+				);
+				PRODUCT_NAME = "Gradient View";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		43F97EE11916584800B5AC8D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/GBGradientViewDemo.app/GBGradientViewDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GBGradientViewDemo/GBGradientViewDemo-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "GBGradientViewDemoTests/GBGradientViewDemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		43F97EE21916584800B5AC8D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/GBGradientViewDemo.app/GBGradientViewDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GBGradientViewDemo/GBGradientViewDemo-Prefix.pch";
+				INFOPLIST_FILE = "GBGradientViewDemoTests/GBGradientViewDemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		43F97EA31916584800B5AC8D /* Build configuration list for PBXProject "GBGradientViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43F97EDB1916584800B5AC8D /* Debug */,
+				43F97EDC1916584800B5AC8D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		43F97EDD1916584800B5AC8D /* Build configuration list for PBXNativeTarget "GBGradientViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43F97EDE1916584800B5AC8D /* Debug */,
+				43F97EDF1916584800B5AC8D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		43F97EE01916584800B5AC8D /* Build configuration list for PBXNativeTarget "GBGradientViewDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43F97EE11916584800B5AC8D /* Debug */,
+				43F97EE21916584800B5AC8D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 43F97EA01916584800B5AC8D /* Project object */;
+}
