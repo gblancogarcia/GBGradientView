@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "43F97EA71916584800B5AC8D"
-               BuildableName = "GBGradientViewDemo.app"
+               BuildableName = "Gradient View.app"
                BlueprintName = "GBGradientViewDemo"
                ReferencedContainer = "container:GBGradientViewDemo.xcodeproj">
             </BuildableReference>
@@ -43,7 +43,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "43F97EA71916584800B5AC8D"
-            BuildableName = "GBGradientViewDemo.app"
+            BuildableName = "Gradient View.app"
             BlueprintName = "GBGradientViewDemo"
             ReferencedContainer = "container:GBGradientViewDemo.xcodeproj">
          </BuildableReference>
@@ -62,7 +62,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "43F97EA71916584800B5AC8D"
-            BuildableName = "GBGradientViewDemo.app"
+            BuildableName = "Gradient View.app"
             BlueprintName = "GBGradientViewDemo"
             ReferencedContainer = "container:GBGradientViewDemo.xcodeproj">
          </BuildableReference>
@@ -80,7 +80,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "43F97EA71916584800B5AC8D"
-            BuildableName = "GBGradientViewDemo.app"
+            BuildableName = "Gradient View.app"
             BlueprintName = "GBGradientViewDemo"
             ReferencedContainer = "container:GBGradientViewDemo.xcodeproj">
          </BuildableReference>
