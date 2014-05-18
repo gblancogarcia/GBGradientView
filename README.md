@@ -44,7 +44,6 @@ Then, initialize a `GBGradientView` new instance.
 GBGradientView gradientView = [[GBGradientView alloc] initWithFrame:self.view.bounds
                                                         orientation:GBGradientViewOrientationVertical];
 gradientView.delegate = self;
-gradientView.translatesAutoresizingMaskIntoConstraints = NO;
 gradientView.animationDuration = 3.0f;
 gradientView.animationDelay = 3.0f;
         
