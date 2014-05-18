@@ -3,9 +3,9 @@ GBGradientView
 
 `GBGradientView` class provides an animated gradient view.
 
-## Screen capture
+## Screenshot
 
-![Alt Screencapture](https://dl.dropboxusercontent.com/u/5359105/GBGradientView/GBGradientView.gif)
+![Alt Screenshot](https://dl.dropboxusercontent.com/u/5359105/GBGradientView/GBGradientView.gif)
 
 ## Requirements
 
