@@ -13,6 +13,14 @@ GBGradientView
 
 ## Adding GBGradientView to your project
 
+### Cocoapods
+
+[CocoaPods](http://cocoapods.org) is the recommended way to add GBGradientView to your project.
+
+1. Add a pod entry for `GBGradientView` to your Podfile `pod 'GBGradientView', '~> 1.0'`
+2. Install the pod(s) by running `pod install`.
+3. Include GBGradientView wherever you need it with #import <GBGradientView/GBGradientView.h>
+
 ### Source files
 
 You can directly add the header and implementation files to your project.
@@ -25,7 +33,7 @@ You can directly add the header and implementation files to your project.
 
 This is an example of use:
 
-First, import `GBGradientView` lib. Your view controller must conform to the `GBGradientVieDelegate` protocol.
+First, import `GBGradientView` lib. Your view controller must conform to the `GBGradientViewDelegate` protocol.
 
 
 ```objective-c
