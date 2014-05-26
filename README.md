@@ -19,7 +19,7 @@ GBGradientView
 
 1. Add a pod entry for `GBGradientView` to your Podfile `pod 'GBGradientView', '~> 1.0'`
 2. Install the pod(s) by running `pod install`.
-3. Include GBGradientView wherever you need it with #import <GBGradientView/GBGradientView.h>
+3. Include GBGradientView wherever you need it with `#import <GBGradientView/GBGradientView.h>`.
 
 ### Source files
 
