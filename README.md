@@ -27,7 +27,7 @@ You can directly add the header and implementation files to your project.
 
 1. Download the [latest code version](https://github.com/gblancogarcia/GBGradientView/archive/master.zip). 
 2. Open your project in Xcode, then drag and drop the header and implementation files onto your project (use the "Product Navigator view"). Make sure to select Copy items when asked if you extracted the code archive outside of your project. 
-3. Include `GBGradientView` wherever you need it with `#import <GBInfiniteScrollView/GBGradientView.h>`.
+3. Include `GBGradientView` wherever you need it with `#import <GBGradientView/GBGradientView.h>`.
 
 ## Usage
 
