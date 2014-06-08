@@ -10,6 +10,6 @@
 
 #import <GBGradientView/GBGradientView.h>
 
-@interface GBViewController : UIViewController <GBGradientVieDelegate>
+@interface GBViewController : UIViewController <GBGradientViewDelegate>
 
 @end

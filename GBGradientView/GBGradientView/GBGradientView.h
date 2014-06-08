@@ -14,7 +14,7 @@ typedef NS_ENUM(NSInteger, GBGradientViewOrientation) {
     GBGradientViewOrientationHorizontal
 };
 
-@protocol GBGradientVieDelegate;
+@protocol GBGradientViewDelegate;
 
 @interface GBGradientView : UIView {
     CALayer *maskLayer;
@@ -28,7 +28,7 @@ typedef NS_ENUM(NSInteger, GBGradientViewOrientation) {
 
 @property (nonatomic, readonly, getter = isAnimating) BOOL animating;
 
-@property (nonatomic, weak) id <GBGradientVieDelegate> delegate;
+@property (nonatomic, weak) id <GBGradientViewDelegate> delegate;
 
 - (id)initWithFrame:(CGRect)frame;
 
@@ -37,7 +37,7 @@ typedef NS_ENUM(NSInteger, GBGradientViewOrientation) {
 
 - (id)initWithFrame:(CGRect)frame
         orientation:(GBGradientViewOrientation)orientation
-           delegate:(id<GBGradientVieDelegate>)delegate;
+           delegate:(id<GBGradientViewDelegate>)delegate;
 
 - (void)startAnimating;
 
@@ -51,7 +51,7 @@ typedef NS_ENUM(NSInteger, GBGradientViewOrientation) {
 
 @end
 
-@protocol GBGradientVieDelegate <NSObject>
+@protocol GBGradientViewDelegate <NSObject>
 
 @optional
 

@@ -48,7 +48,7 @@ const CGFloat GBGradientViewDefaultAnimationDelay = 10.0f;
 
 - (id)initWithFrame:(CGRect)frame
         orientation:(GBGradientViewOrientation)orientation
-           delegate:(id<GBGradientVieDelegate>)delegate
+           delegate:(id<GBGradientViewDelegate>)delegate
 {
     self = [super initWithFrame:frame];
     
@@ -104,7 +104,7 @@ const CGFloat GBGradientViewDefaultAnimationDelay = 10.0f;
     [self reload];
 }
 
-- (void)setDelegate:(id<GBGradientVieDelegate>)delegate
+- (void)setDelegate:(id<GBGradientViewDelegate>)delegate
 {
     _delegate = delegate;
     

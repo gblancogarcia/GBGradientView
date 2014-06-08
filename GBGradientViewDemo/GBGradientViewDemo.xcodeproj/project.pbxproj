@@ -413,6 +413,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "GBGradientViewDemo/GBGradientViewDemo-Prefix.pch";
 				INFOPLIST_FILE = "GBGradientViewDemo/GBGradientViewDemo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/GBGradientView-cupshrzbmanngfanzvuogwgtfzmv/Build/Products/Debug-iphoneos",
@@ -431,6 +432,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "GBGradientViewDemo/GBGradientViewDemo-Prefix.pch";
 				INFOPLIST_FILE = "GBGradientViewDemo/GBGradientViewDemo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/GBGradientView-cupshrzbmanngfanzvuogwgtfzmv/Build/Products/Debug-iphoneos",
