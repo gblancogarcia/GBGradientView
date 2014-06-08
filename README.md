@@ -41,7 +41,7 @@ First, import `GBGradientView` lib. Your view controller must conform to the `GB
 
 #import <GBGradientView/GBGradientView.h>
 
-@interface GBViewController : UIViewController <GBGradientVieDelegate>
+@interface GBViewController : UIViewController <GBGradientViewDelegate>
 
 @end
 ```
@@ -58,7 +58,7 @@ gradientView.animationDelay = 3.0f;
 [self.view addSubview:gradientView];
 ```
 
-Finally, implement the `GBGradientVieDelegate` protocols methods.
+Finally, implement the `GBGradientViewDelegate` protocols methods.
 
 ```objective-c
 - (NSArray *)gradientColorsForGradientView:(GBGradientView *)gradientView
