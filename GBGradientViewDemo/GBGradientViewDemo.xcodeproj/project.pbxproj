@@ -24,11 +24,11 @@
 		43F97EDA1916584800B5AC8D /* GBGradientViewDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 43F97ED91916584800B5AC8D /* GBGradientViewDemoTests.m */; };
 		43F97EE7191658CF00B5AC8D /* GBRoundBorderedButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 43F97EE4191658CF00B5AC8D /* GBRoundBorderedButton.m */; };
 		43F97EE8191658CF00B5AC8D /* UIColor+Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = 43F97EE6191658CF00B5AC8D /* UIColor+Utils.m */; };
-		43F97EEA1916667B00B5AC8D /* libGBGradientView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 43F97EE91916667B00B5AC8D /* libGBGradientView.a */; };
+		9344ED1919EBC9FA00F3D15B /* GBGradientView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9344ED1819EBC9FA00F3D15B /* GBGradientView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		43F97ED11916584800B5AC8D /* PBXContainerItemProxy */ = {
+		9344ED1A19EBDEB400F3D15B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 43F97EA01916584800B5AC8D /* Project object */;
 			proxyType = 1;
@@ -63,6 +63,8 @@
 		43F97EE5191658CF00B5AC8D /* UIColor+Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Utils.h"; sourceTree = "<group>"; };
 		43F97EE6191658CF00B5AC8D /* UIColor+Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Utils.m"; sourceTree = "<group>"; };
 		43F97EE91916667B00B5AC8D /* libGBGradientView.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libGBGradientView.a; path = "../../../Library/Developer/Xcode/DerivedData/GBGradientView-cupshrzbmanngfanzvuogwgtfzmv/Build/Products/Debug-iphoneos/libGBGradientView.a"; sourceTree = "<group>"; };
+		9344ED1719EBC9FA00F3D15B /* GBGradientView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GBGradientView.h; sourceTree = "<group>"; };
+		9344ED1819EBC9FA00F3D15B /* GBGradientView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GBGradientView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,7 +72,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				43F97EEA1916667B00B5AC8D /* libGBGradientView.a in Frameworks */,
 				43F97EAE1916584800B5AC8D /* CoreGraphics.framework in Frameworks */,
 				43F97EB01916584800B5AC8D /* UIKit.framework in Frameworks */,
 				43F97EAC1916584800B5AC8D /* Foundation.framework in Frameworks */,
@@ -93,6 +94,7 @@
 		43F97E9F1916584800B5AC8D = {
 			isa = PBXGroup;
 			children = (
+				9344ED1619EBC9FA00F3D15B /* GBGradientView */,
 				43F97EB11916584800B5AC8D /* GBGradientViewDemo */,
 				43F97ED31916584800B5AC8D /* GBGradientViewDemoTests */,
 				43F97EAA1916584800B5AC8D /* Frameworks */,
@@ -169,6 +171,15 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		9344ED1619EBC9FA00F3D15B /* GBGradientView */ = {
+			isa = PBXGroup;
+			children = (
+				9344ED1719EBC9FA00F3D15B /* GBGradientView.h */,
+				9344ED1819EBC9FA00F3D15B /* GBGradientView.m */,
+			);
+			path = GBGradientView;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -200,7 +211,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				43F97ED21916584800B5AC8D /* PBXTargetDependency */,
+				9344ED1B19EBDEB400F3D15B /* PBXTargetDependency */,
 			);
 			name = GBGradientViewDemoTests;
 			productName = GBGradientViewDemoTests;
@@ -273,6 +284,7 @@
 				43F97EE8191658CF00B5AC8D /* UIColor+Utils.m in Sources */,
 				43F97EB81916584800B5AC8D /* main.m in Sources */,
 				43F97EC51916584800B5AC8D /* GBViewController.m in Sources */,
+				9344ED1919EBC9FA00F3D15B /* GBGradientView.m in Sources */,
 				43F97EE7191658CF00B5AC8D /* GBRoundBorderedButton.m in Sources */,
 				43F97EBC1916584800B5AC8D /* GBAppDelegate.m in Sources */,
 			);
@@ -289,10 +301,10 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		43F97ED21916584800B5AC8D /* PBXTargetDependency */ = {
+		9344ED1B19EBDEB400F3D15B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 43F97EA71916584800B5AC8D /* GBGradientViewDemo */;
-			targetProxy = 43F97ED11916584800B5AC8D /* PBXContainerItemProxy */;
+			targetProxy = 9344ED1A19EBDEB400F3D15B /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -414,10 +426,7 @@
 				GCC_PREFIX_HEADER = "GBGradientViewDemo/GBGradientViewDemo-Prefix.pch";
 				INFOPLIST_FILE = "GBGradientViewDemo/GBGradientViewDemo-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/GBGradientView-cupshrzbmanngfanzvuogwgtfzmv/Build/Products/Debug-iphoneos",
-				);
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				PRODUCT_NAME = "Gradient View";
 				WRAPPER_EXTENSION = app;
 			};
@@ -433,10 +442,7 @@
 				GCC_PREFIX_HEADER = "GBGradientViewDemo/GBGradientViewDemo-Prefix.pch";
 				INFOPLIST_FILE = "GBGradientViewDemo/GBGradientViewDemo-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/GBGradientView-cupshrzbmanngfanzvuogwgtfzmv/Build/Products/Debug-iphoneos",
-				);
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				PRODUCT_NAME = "Gradient View";
 				WRAPPER_EXTENSION = app;
 			};
@@ -445,7 +451,6 @@
 		43F97EE11916584800B5AC8D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/GBGradientViewDemo.app/GBGradientViewDemo";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -467,7 +472,6 @@
 		43F97EE21916584800B5AC8D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/GBGradientViewDemo.app/GBGradientViewDemo";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
