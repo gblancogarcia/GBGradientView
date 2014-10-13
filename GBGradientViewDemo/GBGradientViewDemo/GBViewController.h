@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-#import <GBGradientView/GBGradientView.h>
+#import "GBGradientView.h"
 
 @interface GBViewController : UIViewController <GBGradientViewDelegate>
 
