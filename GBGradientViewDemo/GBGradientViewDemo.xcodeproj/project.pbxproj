@@ -24,7 +24,7 @@
 		43F97EDA1916584800B5AC8D /* GBGradientViewDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 43F97ED91916584800B5AC8D /* GBGradientViewDemoTests.m */; };
 		43F97EE7191658CF00B5AC8D /* GBRoundBorderedButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 43F97EE4191658CF00B5AC8D /* GBRoundBorderedButton.m */; };
 		43F97EE8191658CF00B5AC8D /* UIColor+Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = 43F97EE6191658CF00B5AC8D /* UIColor+Utils.m */; };
-		9344ED1919EBC9FA00F3D15B /* GBGradientView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9344ED1819EBC9FA00F3D15B /* GBGradientView.m */; };
+		939BDD2A1A331C8A00F72200 /* GBGradientView.m in Sources */ = {isa = PBXBuildFile; fileRef = 939BDD291A331C8A00F72200 /* GBGradientView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,8 +63,8 @@
 		43F97EE5191658CF00B5AC8D /* UIColor+Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Utils.h"; sourceTree = "<group>"; };
 		43F97EE6191658CF00B5AC8D /* UIColor+Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Utils.m"; sourceTree = "<group>"; };
 		43F97EE91916667B00B5AC8D /* libGBGradientView.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libGBGradientView.a; path = "../../../Library/Developer/Xcode/DerivedData/GBGradientView-cupshrzbmanngfanzvuogwgtfzmv/Build/Products/Debug-iphoneos/libGBGradientView.a"; sourceTree = "<group>"; };
-		9344ED1719EBC9FA00F3D15B /* GBGradientView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GBGradientView.h; sourceTree = "<group>"; };
-		9344ED1819EBC9FA00F3D15B /* GBGradientView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GBGradientView.m; sourceTree = "<group>"; };
+		939BDD281A331C8A00F72200 /* GBGradientView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GBGradientView.h; path = ../../Pod/Classes/GBGradientView.h; sourceTree = "<group>"; };
+		939BDD291A331C8A00F72200 /* GBGradientView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GBGradientView.m; path = ../../Pod/Classes/GBGradientView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -174,10 +174,11 @@
 		9344ED1619EBC9FA00F3D15B /* GBGradientView */ = {
 			isa = PBXGroup;
 			children = (
-				9344ED1719EBC9FA00F3D15B /* GBGradientView.h */,
-				9344ED1819EBC9FA00F3D15B /* GBGradientView.m */,
+				939BDD281A331C8A00F72200 /* GBGradientView.h */,
+				939BDD291A331C8A00F72200 /* GBGradientView.m */,
 			);
-			path = GBGradientView;
+			name = GBGradientView;
+			path = ../Pod/Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -284,7 +285,7 @@
 				43F97EE8191658CF00B5AC8D /* UIColor+Utils.m in Sources */,
 				43F97EB81916584800B5AC8D /* main.m in Sources */,
 				43F97EC51916584800B5AC8D /* GBViewController.m in Sources */,
-				9344ED1919EBC9FA00F3D15B /* GBGradientView.m in Sources */,
+				939BDD2A1A331C8A00F72200 /* GBGradientView.m in Sources */,
 				43F97EE7191658CF00B5AC8D /* GBRoundBorderedButton.m in Sources */,
 				43F97EBC1916584800B5AC8D /* GBAppDelegate.m in Sources */,
 			);

@@ -155,6 +155,11 @@ const CGFloat GBGradientViewDefaultAnimationDelay = 10.0f;
 {
     if ([self isAnimating]) {
         [self performSelector:@selector(performAnimation) withObject:nil afterDelay:self.animationDelay];
+        
+        if ([self.delegate respondsToSelector:@selector(gradientViewAnimationWillReload:)]) {
+            [self.delegate gradientViewAnimationWillReload:self];
+        }
+        
     } else {
         if ([self.delegate respondsToSelector:@selector(gradientViewAnimationDidStop:)]) {
             [self.delegate gradientViewAnimationDidStop:self];
