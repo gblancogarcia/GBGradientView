@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
   s.source           = { :git => "https://github.com/gblancogarcia/GBGradientView.git", :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/gblancogarcia'
 
-  s.platform     = :ios, '7.1'
+  s.platform     = :ios, '7.0'
   s.requires_arc = true
 
   s.source_files = 'Pod/Classes'
