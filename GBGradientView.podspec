@@ -9,7 +9,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "GBGradientView"
-  s.version          = "0.1.1"
+  s.version          = "0.1.2"
   s.summary          = "GBGradientView class provides an animated gradient view."
   s.homepage         = "https://github.com/gblancogarcia"
   s.screenshots     = "https://camo.githubusercontent.com/62f58d641cd90ceedaed3454d27941f446504a0d/68747470733a2f2f646c2e64726f70626f7875736572636f6e74656e742e636f6d2f752f353335393130352f47424772616469656e74566965772f47424772616469656e74566965772e676966"
