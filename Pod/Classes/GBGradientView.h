@@ -58,5 +58,6 @@ typedef NS_ENUM(NSInteger, GBGradientViewOrientation) {
 - (NSArray *)gradientColorsForGradientView:(GBGradientView *)gradientView;
 
 - (void)gradientViewAnimationDidStop:(GBGradientView *)gradientView;
+- (void)gradientViewAnimationWillReload:(GBGradientView *)gradientView;
 
 @end

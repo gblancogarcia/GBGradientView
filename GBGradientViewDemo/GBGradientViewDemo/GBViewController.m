@@ -337,6 +337,12 @@ const CGFloat ColorAnimationDelay = 1.0f;
     }
 }
 
+
+- (void)gradientViewAnimationWillReload:(GBGradientView *)gradientView
+{
+    NSLog(@"Animation will reload");
+}
+
 - (UIStatusBarStyle)preferredStatusBarStyle {
     
     return UIStatusBarStyleLightContent;
