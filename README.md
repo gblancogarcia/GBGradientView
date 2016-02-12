@@ -13,7 +13,7 @@ GBGradientView
 
 ## Adding GBGradientView to your project
 
-### Cocoapods
+### CocoaPods
 
 [CocoaPods](http://cocoapods.org) is the recommended way to add GBGradientView to your project.
 
